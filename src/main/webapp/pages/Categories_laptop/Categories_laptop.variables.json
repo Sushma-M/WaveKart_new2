@@ -1,0 +1,137 @@
+{
+	"Product_laptop": {
+		"name": "Product_laptop",
+		"type": "Product",
+		"isList": false,
+		"owner": "Page",
+		"dataSet": {
+			"dataValue": ""
+		},
+		"dataBinding": [
+			{
+				"target": "category",
+				"value": "Laptops",
+				"type": "string"
+			}
+		],
+		"saveInPhonegap": false,
+		"firstRow": 0,
+		"maxResults": 6,
+		"designMaxResults": 6,
+		"operation": "read",
+		"startUpdate": true,
+		"autoUpdate": true,
+		"inFlightBehavior": "executeLast",
+		"transformationRequired": false,
+		"liveSource": "eshopping",
+		"ignoreCase": false,
+		"matchMode": "start",
+		"package": "com.eshop.eshopping.Product",
+		"propertiesMap": {
+			"columns": [
+				{
+					"fieldName": "id",
+					"type": "integer",
+					"hibernateType": "integer",
+					"fullyQualifiedType": "integer",
+					"columnName": "ID",
+					"isPrimaryKey": true,
+					"notNull": true,
+					"length": 255,
+					"generator": "identity",
+					"isRelated": false,
+					"defaultValue": null
+				},
+				{
+					"fieldName": "imgUrl",
+					"type": "string",
+					"hibernateType": "string",
+					"fullyQualifiedType": "string",
+					"columnName": "IMG_URL",
+					"isPrimaryKey": false,
+					"notNull": false,
+					"length": 255,
+					"generator": "assigned",
+					"isRelated": false,
+					"defaultValue": null
+				},
+				{
+					"fieldName": "category",
+					"type": "string",
+					"hibernateType": "string",
+					"fullyQualifiedType": "string",
+					"columnName": "CATEGORY",
+					"isPrimaryKey": false,
+					"notNull": true,
+					"length": 255,
+					"generator": "assigned",
+					"isRelated": false,
+					"defaultValue": null
+				},
+				{
+					"fieldName": "price",
+					"type": "double",
+					"hibernateType": "double",
+					"fullyQualifiedType": "double",
+					"columnName": "PRICE",
+					"isPrimaryKey": false,
+					"notNull": true,
+					"length": 255,
+					"generator": "assigned",
+					"isRelated": false,
+					"defaultValue": null
+				},
+				{
+					"fieldName": "description",
+					"type": "string",
+					"hibernateType": "string",
+					"fullyQualifiedType": "string",
+					"columnName": "DESCRIPTION",
+					"isPrimaryKey": false,
+					"notNull": true,
+					"length": 255,
+					"generator": "assigned",
+					"isRelated": false,
+					"defaultValue": null
+				},
+				{
+					"fieldName": "name",
+					"type": "string",
+					"hibernateType": "string",
+					"fullyQualifiedType": "string",
+					"columnName": "NAME",
+					"isPrimaryKey": false,
+					"notNull": true,
+					"length": 255,
+					"generator": "assigned",
+					"isRelated": false,
+					"defaultValue": null
+				},
+				{
+					"fieldName": "availability",
+					"type": "boolean",
+					"hibernateType": "boolean",
+					"fullyQualifiedType": "boolean",
+					"columnName": "AVAILABILITY",
+					"isPrimaryKey": false,
+					"notNull": true,
+					"length": 255,
+					"generator": "assigned",
+					"isRelated": false,
+					"defaultValue": null
+				}
+			],
+			"primaryFields": [
+				"id"
+			],
+			"entityName": "Product",
+			"fullyQualifiedName": "com.eshop.eshopping.Product",
+			"tableType": "TABLE"
+		},
+		"category": "wm.LiveVariable",
+		"_id": "wm-Product_laptop-wm.LiveVariable-1449470719480",
+		"filterFields": {},
+		"tableName": "PRODUCT",
+		"tableType": "TABLE"
+	}
+}
