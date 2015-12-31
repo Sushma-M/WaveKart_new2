@@ -10,7 +10,8 @@
 		"redirectTo": "index.html",
 		"useDefaultSuccessHandler": true,
 		"category": "wm.LogoutVariable",
-		"_id": "wm-logoutVariable-wm.LogoutVariable-1448969207396"
+		"_id": "wm-logoutVariable-wm.LogoutVariable-1448969207396",
+		"$$hashKey": "object:14141"
 	},
 	"EshoppingExecuteCancelled": {
 		"name": "EshoppingExecuteCancelled",
@@ -67,7 +68,8 @@
 		"serviceType": "DataService",
 		"category": "wm.ServiceVariable",
 		"_id": "wm-EshoppingExecuteCancelled-wm.ServiceVariable-1450089884879",
-		"isDefault": true
+		"isDefault": true,
+		"$$hashKey": "object:14130"
 	},
 	"hashredirect": {
 		"name": "hashredirect",
@@ -80,7 +82,8 @@
 		"dataBinding": [],
 		"saveInPhonegap": false,
 		"category": "wm.Variable",
-		"_id": "wm-hashredirect-wm.Variable-1450268290392"
+		"_id": "wm-hashredirect-wm.Variable-1450268290392",
+		"$$hashKey": "object:14137"
 	},
 	"goToPage_Orders": {
 		"name": "goToPage_Orders",
@@ -344,7 +347,8 @@
 			"productorder"
 		],
 		"category": "wm.LiveVariable",
-		"tableType": "TABLE"
+		"tableType": "TABLE",
+		"$$hashKey": "object:14133"
 	},
 	"goToPage_Cart": {
 		"name": "goToPage_Cart",
@@ -486,7 +490,8 @@
 		"dbSystem": "HSQLDB",
 		"category": "wm.LiveVariable",
 		"filterFields": {},
-		"tableType": "TABLE"
+		"tableType": "TABLE",
+		"$$hashKey": "object:14134"
 	},
 	"goToPage_Main": {
 		"name": "goToPage_Main",
@@ -631,7 +636,8 @@
 		"_id": "wm-Product_obj-wm.LiveVariable-1450091071612",
 		"filterFields": {},
 		"tableName": "PRODUCT",
-		"tableType": "TABLE"
+		"tableType": "TABLE",
+		"$$hashKey": "object:14142"
 	},
 	"goToPage_Admin": {
 		"name": "goToPage_Admin",
@@ -894,7 +900,8 @@
 			"user"
 		],
 		"category": "wm.LiveVariable",
-		"tableType": "TABLE"
+		"tableType": "TABLE",
+		"$$hashKey": "object:14135"
 	},
 	"loginVariable": {
 		"name": "loginVariable",
@@ -925,7 +932,8 @@
 		"onError": "Javascript",
 		"useDefaultSuccessHandler": false,
 		"category": "wm.LoginVariable",
-		"_id": "wm-loginVariable-wm.LoginVariable-1448969207395"
+		"_id": "wm-loginVariable-wm.LoginVariable-1448969207395",
+		"$$hashKey": "object:14140"
 	},
 	"InsertCart": {
 		"name": "InsertCart",
@@ -1330,7 +1338,8 @@
 		"inputFields": {},
 		"category": "wm.LiveVariable",
 		"filterFields": {},
-		"tableType": "TABLE"
+		"tableType": "TABLE",
+		"$$hashKey": "object:14138"
 	},
 	"user_obj": {
 		"name": "user_obj",
@@ -1530,7 +1539,8 @@
 		"_id": "wm-user_obj-wm.LiveVariable-1450092190771",
 		"filterFields": {},
 		"tableName": "USER",
-		"tableType": "TABLE"
+		"tableType": "TABLE",
+		"$$hashKey": "object:14149"
 	},
 	"EshoppingExecute_Total_Price": {
 		"name": "EshoppingExecute_Total_Price",
@@ -1588,7 +1598,8 @@
 		"serviceType": "DataService",
 		"category": "wm.ServiceVariable",
 		"_id": "wm-EshoppingExecute_Total_Price-wm.ServiceVariable-1450089838621",
-		"isDefault": true
+		"isDefault": true,
+		"$$hashKey": "object:14129"
 	},
 	"EshoppingUserData": {
 		"name": "EshoppingUserData",
@@ -1784,7 +1795,8 @@
 		"tableName": "USER",
 		"dbSystem": "HSQLDB",
 		"category": "wm.LiveVariable",
-		"tableType": "TABLE"
+		"tableType": "TABLE",
+		"$$hashKey": "object:14136"
 	},
 	"goToPage_Profile": {
 		"name": "goToPage_Profile",
@@ -1840,7 +1852,8 @@
 		"serviceType": "DataService",
 		"category": "wm.ServiceVariable",
 		"_id": "wm-EshoppingExecute_Total_InCart-wm.ServiceVariable-1450172698588",
-		"isDefault": true
+		"isDefault": true,
+		"$$hashKey": "object:14128"
 	},
 	"EshoppingExecuteOrdered": {
 		"name": "EshoppingExecuteOrdered",
@@ -1898,7 +1911,8 @@
 		"category": "wm.ServiceVariable",
 		"_id": "wm-EshoppingExecuteOrdered-wm.ServiceVariable-1450089641366",
 		"isDefault": true,
-		"controller": "QueryExecution"
+		"controller": "QueryExecution",
+		"$$hashKey": "object:14131"
 	},
 	"loggedInUser": {
 		"name": "loggedInUser",
@@ -1916,7 +1930,8 @@
 		"dataBinding": [],
 		"saveInPhonegap": false,
 		"category": "wm.Variable",
-		"_id": "wm-loggedInUser-wm.Variable-1448969207397"
+		"_id": "wm-loggedInUser-wm.Variable-1448969207397",
+		"$$hashKey": "object:14139"
 	},
 	"EshoppingExecute_OrderedLists": {
 		"name": "EshoppingExecute_OrderedLists",
@@ -1926,14 +1941,21 @@
 		"dataSet": {
 			"dataValue": ""
 		},
-		"dataBinding": [],
+		"dataBinding": [
+			{
+				"target": "LoggedinUserID",
+				"type": "integer",
+				"value": "bind:Variables.loggedInUser.dataSet.id"
+			}
+		],
 		"saveInPhonegap": false,
 		"firstRow": 0,
 		"maxResults": 20,
 		"designMaxResults": 10,
 		"service": "eshopping",
 		"operation": "execute_OrderedLists",
-		"startUpdate": false,
+		"operationType": "get",
+		"startUpdate": true,
 		"autoUpdate": true,
 		"inFlightBehavior": "executeLast",
 		"transformationRequired": false,
@@ -1967,7 +1989,9 @@
 				}
 			]
 		},
-		"_id": "wm-EshoppingExecute_OrderedLists-wm.ServiceVariable-1451552246266"
+		"_id": "wm-EshoppingExecute_OrderedLists-wm.ServiceVariable-1451552246266",
+		"$$hashKey": "object:14127",
+		"controller": "QueryExecution"
 	},
 	"EshoppingItemorderData": {
 		"name": "EshoppingItemorderData",
@@ -2352,7 +2376,8 @@
 		],
 		"category": "wm.LiveVariable",
 		"filterFields": {},
-		"tableType": "TABLE"
+		"tableType": "TABLE",
+		"$$hashKey": "object:14132"
 	},
 	"supportedLocale": {
 		"name": "supportedLocale",
@@ -2365,7 +2390,8 @@
 		"dataBinding": [],
 		"saveInPhonegap": false,
 		"category": "wm.Variable",
-		"_id": "wm-supportedLocale-wm.Variable1402640443182"
+		"_id": "wm-supportedLocale-wm.Variable1402640443182",
+		"$$hashKey": "object:14148"
 	},
 	"goToPage_ProductsList": {
 		"name": "goToPage_ProductsList",
@@ -2404,7 +2430,8 @@
 		],
 		"saveInPhonegap": false,
 		"category": "wm.Variable",
-		"_id": "wm-SelectedCategory-wm.Variable-1451477713501"
+		"_id": "wm-SelectedCategory-wm.Variable-1451477713501",
+		"$$hashKey": "object:14144"
 	},
 	"ProductsbyCategory": {
 		"name": "ProductsbyCategory",
@@ -2540,7 +2567,8 @@
 			"fullyQualifiedName": "com.eshop.eshopping.Product",
 			"tableType": "TABLE"
 		},
-		"bindCount": null
+		"bindCount": null,
+		"$$hashKey": "object:14143"
 	},
 	"goToPage_Products": {
 		"name": "goToPage_Products",
@@ -2882,7 +2910,8 @@
 			"fullyQualifiedName": "com.eshop.eshopping.Product",
 			"tableType": "TABLE"
 		},
-		"bindCount": 0
+		"bindCount": 0,
+		"$$hashKey": "object:14146"
 	},
 	"selectedprodID": {
 		"name": "selectedprodID",
@@ -2901,7 +2930,8 @@
 		],
 		"saveInPhonegap": false,
 		"category": "wm.Variable",
-		"_id": "wm-selectedprodID-wm.Variable-1451541391115"
+		"_id": "wm-selectedprodID-wm.Variable-1451541391115",
+		"$$hashKey": "object:14145"
 	},
 	"static_product_data_forsearch": {
 		"name": "static_product_data_forsearch",
@@ -3036,6 +3066,7 @@
 			"entityName": "Product",
 			"fullyQualifiedName": "com.eshop.eshopping.Product",
 			"tableType": "TABLE"
-		}
+		},
+		"$$hashKey": "object:14147"
 	}
 }
