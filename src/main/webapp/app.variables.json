@@ -10,8 +10,7 @@
 		"redirectTo": "index.html",
 		"useDefaultSuccessHandler": true,
 		"category": "wm.LogoutVariable",
-		"_id": "wm-logoutVariable-wm.LogoutVariable-1448969207396",
-		"$$hashKey": "object:1507"
+		"_id": "wm-logoutVariable-wm.LogoutVariable-1448969207396"
 	},
 	"EshoppingExecuteCancelled": {
 		"name": "EshoppingExecuteCancelled",
@@ -68,8 +67,7 @@
 		"serviceType": "DataService",
 		"category": "wm.ServiceVariable",
 		"_id": "wm-EshoppingExecuteCancelled-wm.ServiceVariable-1450089884879",
-		"isDefault": true,
-		"$$hashKey": "object:1496"
+		"isDefault": true
 	},
 	"hashredirect": {
 		"name": "hashredirect",
@@ -82,8 +80,7 @@
 		"dataBinding": [],
 		"saveInPhonegap": false,
 		"category": "wm.Variable",
-		"_id": "wm-hashredirect-wm.Variable-1450268290392",
-		"$$hashKey": "object:1503"
+		"_id": "wm-hashredirect-wm.Variable-1450268290392"
 	},
 	"goToPage_Orders": {
 		"name": "goToPage_Orders",
@@ -347,8 +344,7 @@
 			"productorder"
 		],
 		"category": "wm.LiveVariable",
-		"tableType": "TABLE",
-		"$$hashKey": "object:1499"
+		"tableType": "TABLE"
 	},
 	"goToPage_Cart": {
 		"name": "goToPage_Cart",
@@ -490,8 +486,7 @@
 		"dbSystem": "HSQLDB",
 		"category": "wm.LiveVariable",
 		"filterFields": {},
-		"tableType": "TABLE",
-		"$$hashKey": "object:1500"
+		"tableType": "TABLE"
 	},
 	"goToPage_Main": {
 		"name": "goToPage_Main",
@@ -514,7 +509,7 @@
 		"dataBinding": [
 			{
 				"target": "id",
-				"value": "bind:Widgets.id.caption",
+				"value": "bind:Variables.selectedprodID.dataSet.dataValue",
 				"type": "number"
 			}
 		],
@@ -636,8 +631,7 @@
 		"_id": "wm-Product_obj-wm.LiveVariable-1450091071612",
 		"filterFields": {},
 		"tableName": "PRODUCT",
-		"tableType": "TABLE",
-		"$$hashKey": "object:1508"
+		"tableType": "TABLE"
 	},
 	"goToPage_Admin": {
 		"name": "goToPage_Admin",
@@ -900,8 +894,7 @@
 			"user"
 		],
 		"category": "wm.LiveVariable",
-		"tableType": "TABLE",
-		"$$hashKey": "object:1501"
+		"tableType": "TABLE"
 	},
 	"loginVariable": {
 		"name": "loginVariable",
@@ -932,8 +925,7 @@
 		"onError": "Javascript",
 		"useDefaultSuccessHandler": false,
 		"category": "wm.LoginVariable",
-		"_id": "wm-loginVariable-wm.LoginVariable-1448969207395",
-		"$$hashKey": "object:1506"
+		"_id": "wm-loginVariable-wm.LoginVariable-1448969207395"
 	},
 	"InsertCart": {
 		"name": "InsertCart",
@@ -1338,8 +1330,7 @@
 		"inputFields": {},
 		"category": "wm.LiveVariable",
 		"filterFields": {},
-		"tableType": "TABLE",
-		"$$hashKey": "object:1504"
+		"tableType": "TABLE"
 	},
 	"user_obj": {
 		"name": "user_obj",
@@ -1539,8 +1530,7 @@
 		"_id": "wm-user_obj-wm.LiveVariable-1450092190771",
 		"filterFields": {},
 		"tableName": "USER",
-		"tableType": "TABLE",
-		"$$hashKey": "object:1518"
+		"tableType": "TABLE"
 	},
 	"EshoppingExecute_Total_Price": {
 		"name": "EshoppingExecute_Total_Price",
@@ -1598,8 +1588,7 @@
 		"serviceType": "DataService",
 		"category": "wm.ServiceVariable",
 		"_id": "wm-EshoppingExecute_Total_Price-wm.ServiceVariable-1450089838621",
-		"isDefault": true,
-		"$$hashKey": "object:1495"
+		"isDefault": true
 	},
 	"EshoppingUserData": {
 		"name": "EshoppingUserData",
@@ -1795,8 +1784,7 @@
 		"tableName": "USER",
 		"dbSystem": "HSQLDB",
 		"category": "wm.LiveVariable",
-		"tableType": "TABLE",
-		"$$hashKey": "object:1502"
+		"tableType": "TABLE"
 	},
 	"goToPage_Profile": {
 		"name": "goToPage_Profile",
@@ -1852,8 +1840,7 @@
 		"serviceType": "DataService",
 		"category": "wm.ServiceVariable",
 		"_id": "wm-EshoppingExecute_Total_InCart-wm.ServiceVariable-1450172698588",
-		"isDefault": true,
-		"$$hashKey": "object:1494"
+		"isDefault": true
 	},
 	"EshoppingExecuteOrdered": {
 		"name": "EshoppingExecuteOrdered",
@@ -1911,8 +1898,7 @@
 		"category": "wm.ServiceVariable",
 		"_id": "wm-EshoppingExecuteOrdered-wm.ServiceVariable-1450089641366",
 		"isDefault": true,
-		"controller": "QueryExecution",
-		"$$hashKey": "object:1497"
+		"controller": "QueryExecution"
 	},
 	"loggedInUser": {
 		"name": "loggedInUser",
@@ -1930,8 +1916,7 @@
 		"dataBinding": [],
 		"saveInPhonegap": false,
 		"category": "wm.Variable",
-		"_id": "wm-loggedInUser-wm.Variable-1448969207397",
-		"$$hashKey": "object:1505"
+		"_id": "wm-loggedInUser-wm.Variable-1448969207397"
 	},
 	"EshoppingExecute_OrderedLists": {
 		"name": "EshoppingExecute_OrderedLists",
@@ -1990,8 +1975,7 @@
 			]
 		},
 		"_id": "wm-EshoppingExecute_OrderedLists-wm.ServiceVariable-1450702603666",
-		"controller": "QueryExecution",
-		"$$hashKey": "object:1493"
+		"controller": "QueryExecution"
 	},
 	"EshoppingItemorderData": {
 		"name": "EshoppingItemorderData",
@@ -2376,8 +2360,7 @@
 		],
 		"category": "wm.LiveVariable",
 		"filterFields": {},
-		"tableType": "TABLE",
-		"$$hashKey": "object:1498"
+		"tableType": "TABLE"
 	},
 	"supportedLocale": {
 		"name": "supportedLocale",
@@ -2390,8 +2373,7 @@
 		"dataBinding": [],
 		"saveInPhonegap": false,
 		"category": "wm.Variable",
-		"_id": "wm-supportedLocale-wm.Variable1402640443182",
-		"$$hashKey": "object:1517"
+		"_id": "wm-supportedLocale-wm.Variable1402640443182"
 	},
 	"goToPage_ProductsList": {
 		"name": "goToPage_ProductsList",
@@ -2430,8 +2412,7 @@
 		],
 		"saveInPhonegap": false,
 		"category": "wm.Variable",
-		"_id": "wm-SelectedCategory-wm.Variable-1451477713501",
-		"$$hashKey": "object:1510"
+		"_id": "wm-SelectedCategory-wm.Variable-1451477713501"
 	},
 	"ProductsbyCategory": {
 		"name": "ProductsbyCategory",
@@ -2567,8 +2548,7 @@
 			"fullyQualifiedName": "com.eshop.eshopping.Product",
 			"tableType": "TABLE"
 		},
-		"bindCount": null,
-		"$$hashKey": "object:1509"
+		"bindCount": null
 	},
 	"goToPage_Products": {
 		"name": "goToPage_Products",
@@ -2910,8 +2890,7 @@
 			"fullyQualifiedName": "com.eshop.eshopping.Product",
 			"tableType": "TABLE"
 		},
-		"bindCount": 0,
-		"$$hashKey": "object:1512"
+		"bindCount": 0
 	},
 	"selectedprodID": {
 		"name": "selectedprodID",
@@ -2930,8 +2909,7 @@
 		],
 		"saveInPhonegap": false,
 		"category": "wm.Variable",
-		"_id": "wm-selectedprodID-wm.Variable-1451541391115",
-		"$$hashKey": "object:1511"
+		"_id": "wm-selectedprodID-wm.Variable-1451541391115"
 	},
 	"static_product_data_forsearch": {
 		"name": "static_product_data_forsearch",
@@ -3066,7 +3044,6 @@
 			"entityName": "Product",
 			"fullyQualifiedName": "com.eshop.eshopping.Product",
 			"tableType": "TABLE"
-		},
-		"$$hashKey": "object:11523"
+		}
 	}
 }

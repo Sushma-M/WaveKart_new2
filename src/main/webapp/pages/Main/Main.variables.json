@@ -132,8 +132,7 @@
 		"_id": "wm-cameras_list-wm.LiveVariable-1449055344533",
 		"tableName": "PRODUCT",
 		"filterFields": {},
-		"tableType": "TABLE",
-		"$$hashKey": "object:12296"
+		"tableType": "TABLE"
 	},
 	"laptops_list": {
 		"name": "laptops_list",
@@ -268,8 +267,7 @@
 		"_id": "wm-laptops_list-wm.LiveVariable-1449055287096",
 		"tableName": "PRODUCT",
 		"filterFields": {},
-		"tableType": "TABLE",
-		"$$hashKey": "object:12297"
+		"tableType": "TABLE"
 	},
 	"smartphones_list": {
 		"name": "smartphones_list",
@@ -405,7 +403,6 @@
 		"_id": "wm-smartphones_list-wm.LiveVariable-1449051748246",
 		"tableName": "PRODUCT",
 		"filterFields": {},
-		"tableType": "TABLE",
-		"$$hashKey": "object:12298"
+		"tableType": "TABLE"
 	}
 }
