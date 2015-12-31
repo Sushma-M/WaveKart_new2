@@ -816,14 +816,14 @@ var _CartPage_Variables_ ={
             <wm-layoutgrid name="layoutgrid1" show="true">
                 <wm-gridrow name="gridrow1">
                     <wm-gridcolumn name="gridcolumn1" columnwidth="8">
-                        <wm-layoutgrid name="layoutgrid2" show="true">
+                        <wm-layoutgrid name="layoutgrid2" show="true" margintop="10">
                             <wm-gridrow name="gridrow4">
                                 <wm-gridcolumn name="gridcolumn10" columnwidth="2"></wm-gridcolumn>
                                 <wm-gridcolumn name="gridcolumn11" columnwidth="6">
-                                    <wm-label caption="Description" name="label2"></wm-label>
+                                    <wm-label caption="Description" name="label2" fontsize="1.2" fontunit="em" fontweight="bold"></wm-label>
                                 </wm-gridcolumn>
                                 <wm-gridcolumn name="gridcolumn12" columnwidth="2">
-                                    <wm-label caption="Price ($)" name="label1"></wm-label>
+                                    <wm-label caption="Price ($)" name="label1" fontsize="1.2" fontunit="em" fontweight="bold"></wm-label>
                                 </wm-gridcolumn>
                             </wm-gridrow>
                         </wm-layoutgrid>
@@ -852,12 +852,12 @@ var _CartPage_Variables_ ={
                         </wm-livelist>
                     </wm-gridcolumn>
                     <wm-gridcolumn name="gridcolumn3" columnwidth="4">
-                        <wm-container name="container2" show="true">
-                            <wm-label width="25%" caption="Total Items:" name="label10"></wm-label>
-                            <wm-label caption="bind:Variables.EshoppingExecute_Total_InCart.dataSet.content[$i].TOTAL" width="72%" name="label11"></wm-label>
-                            <wm-label caption="Total Price:" width="25%" name="label12"></wm-label>
-                            <wm-label caption="bind:Variables.EshoppingExecute_Total_Price.dataSet[$i].C1" width="72%" name="label13"></wm-label>
-                            <wm-button bordercolor="#467AD6" iconclass="glyphicon glyphicon-transfer" name="button2" class="btn-success" caption="Checkout" type="button" on-click="EshoppingExecuteOrdered"></wm-button>
+                        <wm-container name="container2" show="true" margintop="15" horizontalalign="left" marginleft="25">
+                            <wm-label width="25%" caption="Total Items:" name="label10" fontsize="14"></wm-label>
+                            <wm-label caption="bind:Variables.EshoppingExecute_Total_InCart.dataSet.content[$i].TOTAL" width="72%" name="label11" fontsize="14"></wm-label>
+                            <wm-label caption="Total Price:" width="25%" name="label12" fontsize="14"></wm-label>
+                            <wm-label caption="bind:Variables.EshoppingExecute_Total_Price.dataSet[$i].C1" width="72%" name="label13" fontsize="14"></wm-label>
+                            <wm-button bordercolor="#467AD6" iconclass="glyphicon glyphicon-transfer" name="button2" class="btn-success" caption="Checkout" type="button" on-click="EshoppingExecuteOrdered" fontsize="15" margintop="5"></wm-button>
                         </wm-container>
                     </wm-gridcolumn>
                 </wm-gridrow>

@@ -9,13 +9,13 @@
                 <wm-layoutgrid name="layoutgrid1" class="well" fontweight="bold" marginleft="5">
                     <wm-gridrow name="row2">
                         <wm-gridcolumn columnwidth="1" name="gridcolumn10"></wm-gridcolumn>
-                        <wm-gridcolumn columnwidth="5" name="gridcolumn2" fontweight="bold">
-                            <wm-label name="order_items_name" caption="Product Name" fontweight="bold" fontsize="15"></wm-label>
+                        <wm-gridcolumn columnwidth="6" name="gridcolumn2" fontweight="bold">
+                            <wm-label name="order_items_name" caption="Product Name" fontweight="bold" fontsize="15" marginleft="5"></wm-label>
                         </wm-gridcolumn>
-                        <wm-gridcolumn horizontalalign="center" columnwidth="1" name="gridcolumn3">
-                            <wm-label name="order_items_quantity" caption="Quantity" fontsize="15" fontweight="bold"></wm-label>
+                        <wm-gridcolumn horizontalalign="left" columnwidth="2" name="gridcolumn3">
+                            <wm-label name="order_items_quantity" caption="Quantity" fontsize="15" fontweight="bold" marginleft="5"></wm-label>
                         </wm-gridcolumn>
-                        <wm-gridcolumn horizontalalign="center" columnwidth="1" name="gridcolumn4">
+                        <wm-gridcolumn horizontalalign="left" columnwidth="2" name="gridcolumn4">
                             <wm-label name="order_items_status" caption="Status" fontsize="15" fontweight="bold"></wm-label>
                         </wm-gridcolumn>
                         <wm-gridcolumn horizontalalign="center" columnwidth="2" name="gridcolumn5"></wm-gridcolumn>
@@ -32,14 +32,14 @@
                                     <wm-gridcolumn columnwidth="6" data-template-ctr="true" class="col-xs-12" name="gridcolumn14">
                                         <wm-label name="prodname" width="100%" caption="bind:Variables.EshoppingExecute_OrderedLists.dataSet.NAME"></wm-label>
                                     </wm-gridcolumn>
-                                    <wm-gridcolumn columnwidth="1" data-template-ctr="true" class="col-xs-12" name="gridcolumn17" horizontalalign="left">
-                                        <wm-label name="quantity" width="100%" caption="bind:Variables.EshoppingExecute_OrderedLists.dataSet.ID"></wm-label>
+                                    <wm-gridcolumn columnwidth="2" data-template-ctr="true" class="col-xs-12" name="gridcolumn17" horizontalalign="left">
+                                        <wm-label name="quantity" width="100%" caption="bind:Variables.EshoppingExecute_OrderedLists.dataSet.ID" marginleft="5"></wm-label>
                                     </wm-gridcolumn>
-                                    <wm-gridcolumn columnwidth="1" data-template-ctr="true" class="col-xs-12" name="gridcolumn18">
-                                        <wm-label name="City" width="100%" caption="bind:Variables.EshoppingExecute_OrderedLists.dataSet.STATUS"></wm-label>
+                                    <wm-gridcolumn columnwidth="2" data-template-ctr="true" class="col-xs-12" name="gridcolumn18">
+                                        <wm-label name="City" width="100%" caption="bind:Variables.EshoppingExecute_OrderedLists.dataSet.STATUS" marginleft="5"></wm-label>
                                     </wm-gridcolumn>
-                                    <wm-gridcolumn columnwidth="1" data-template-ctr="true" class="col-xs-12" name="gridcolumn19">
-                                        <wm-button class="btn-default" caption="" type="button" name="button2" iconclass="fa fa-trash-o fa-lg" borderstyle="none" on-click="EshoppingExecuteCancelled" show="bind:Variables.EshoppingExecute_OrderedLists.dataSet.STATUS!='Cancelled'"></wm-button>
+                                    <wm-gridcolumn columnwidth="1" data-template-ctr="true" class="col-xs-12" name="gridcolumn19" horizontalalign="right">
+                                        <wm-button class="btn-default" caption="" type="button" name="button2" iconclass="fa fa-trash-o fa-2x" borderstyle="none" on-click="EshoppingExecuteCancelled" show="bind:Variables.EshoppingExecute_OrderedLists.dataSet.STATUS!='Cancelled'"></wm-button>
                                     </wm-gridcolumn>
                                 </wm-gridcolumn>
                             </wm-gridrow>
