@@ -1,0 +1,91 @@
+<style id="ProductsList.css">
+
+</style>
+<script id="ProductsList.js">
+Application.$controller("ProductsListPageController", ["$scope", function ($scope) {
+    "use strict";
+
+    /* perform any action with the variables inside this block(on-page-load) */
+    $scope.onPageVariablesReady = function () {
+        /*
+         * variables can be accessed through '$scope.Variables' property here
+         * e.g. $scope.Variables.staticVariable1.getData()
+         */
+    };
+    
+    /* perform any action with widgets inside this block */
+    $scope.onPageReady = function () {
+        /*
+         * widgets can be accessed through '$scope.Widgets' property here
+         * e.g. $scope.Widgets.byId(), $scope.Widgets.byName()or access widgets by $scope.Widgets.widgetName
+         */
+    };
+
+}]);
+
+</script>
+<script id="ProductsList.variables.json">
+var _ProductsListPage_Variables_ ={
+	"categorynames": {
+		"name": "categorynames",
+		"type": "string",
+		"isList": true,
+		"owner": "Page",
+		"dataSet": [
+			{
+				"dataValue": "Smartphones"
+			},
+			{
+				"dataValue": "Cameras"
+			},
+			{
+				"dataValue": "Laptops"
+			},
+			{
+				"dataValue": "Peripherals"
+			},
+			{
+				"dataValue": "Accessories"
+			}
+		],
+		"dataBinding": [],
+		"saveInPhonegap": false,
+		"category": "wm.Variable",
+		"_id": "wm-categorynames-wm.Variable-1451477574410",
+		"$$hashKey": "object:11608"
+	}
+}
+</script>
+<script id="ProductsList.html" type="text/ng-template">
+<wm-page data-ng-controller="ProductsListPageController" pagetitle="Products List">
+    <wm-header content="header"></wm-header>
+    <wm-top-nav content="topnav"></wm-top-nav>
+    <wm-content name="content1">
+        <wm-page-content columnwidth="12" name="page_content1">
+            <wm-layoutgrid name="layoutgrid1" columns="2">
+                <wm-gridrow name="gridrow4">
+                    <wm-gridcolumn colwidth="6" name="gridcolumn10" columnwidth="1">
+                        <wm-livelist listclass="list-group" itemclass="list-group-item" dataset="bind:Variables.categorynames.dataSet" name="prodcategorylist" selectfirstitem="true">
+                            <wm-listtemplate layout="blank" name="listtemplate1">
+                                <wm-container class="blank" data-template-ctr="true" name="container2">
+                                    <wm-layoutgrid class="gridlayout" name="layoutgrid2">
+                                        <wm-gridrow name="gridrow6">
+                                            <wm-gridcolumn class="col-xs-6" columnwidth="12" name="gridcolumn14">
+                                                <wm-label width="100%" caption="bind:Variables.categorynames.dataSet.dataValue" name="Prodcategories"></wm-label>
+                                            </wm-gridcolumn>
+                                        </wm-gridrow>
+                                    </wm-layoutgrid>
+                                </wm-container>
+                            </wm-listtemplate>
+                        </wm-livelist>
+                    </wm-gridcolumn>
+                    <wm-gridcolumn colwidth="6" name="gridcolumn11" columnwidth="11">
+                        <wm-container name="container2_1" content="prodslistbycategory"></wm-container>
+                    </wm-gridcolumn>
+                </wm-gridrow>
+            </wm-layoutgrid>
+        </wm-page-content>
+    </wm-content>
+    <wm-footer content="footer"></wm-footer>
+</wm-page>
+</script>

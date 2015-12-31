@@ -83,5 +83,14 @@
             <element name="STATUS" typeRef="java.lang.String"/>
             <element name="QUANTITY" typeRef="java.lang.Integer"/>
         </dataobject>
+        <dataobject javaType="eshoppingproductbyIDrtnType">
+            <element name="PRICE" typeRef="java.lang.Double"/>
+            <element name="CATEGORY" typeRef="java.lang.String"/>
+            <element name="NAME" typeRef="java.lang.String"/>
+            <element name="AVAILABILITY" typeRef="java.lang.Boolean"/>
+            <element name="IMG_URL" typeRef="java.lang.String"/>
+            <element name="DESCRIPTION" typeRef="java.lang.String"/>
+            <element name="ID" typeRef="java.lang.Integer"/>
+        </dataobject>
     </dataobjects>
 </service>

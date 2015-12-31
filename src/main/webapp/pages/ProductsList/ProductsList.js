@@ -1,4 +1,4 @@
-Application.$controller("Categories_CamerasPageController", ["$scope", function ($scope) {
+Application.$controller("ProductsListPageController", ["$scope", function ($scope) {
     "use strict";
 
     /* perform any action with the variables inside this block(on-page-load) */

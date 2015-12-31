@@ -1,0 +1,30 @@
+{
+	"categorynames": {
+		"name": "categorynames",
+		"type": "string",
+		"isList": true,
+		"owner": "Page",
+		"dataSet": [
+			{
+				"dataValue": "Smartphones"
+			},
+			{
+				"dataValue": "Cameras"
+			},
+			{
+				"dataValue": "Laptops"
+			},
+			{
+				"dataValue": "Peripherals"
+			},
+			{
+				"dataValue": "Accessories"
+			}
+		],
+		"dataBinding": [],
+		"saveInPhonegap": false,
+		"category": "wm.Variable",
+		"_id": "wm-categorynames-wm.Variable-1451477574410",
+		"$$hashKey": "object:11608"
+	}
+}

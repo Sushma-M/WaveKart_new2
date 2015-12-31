@@ -133,7 +133,8 @@
 		"_id": "wm-static_product_data_forsearch-Product-wm.LiveVariable-1449752030516",
 		"filterFields": {},
 		"tableName": "PRODUCT",
-		"tableType": "TABLE"
+		"tableType": "TABLE",
+		"$$hashKey": "object:1730"
 	},
 	"Static_Product_data": {
 		"name": "Static_Product_data",
@@ -196,49 +197,50 @@
 			{
 				"isList": false,
 				"target": "imgUrl",
-				"value": "bind:Widgets.livelist1.selecteditem.imgUrl",
+				"value": "bind:Widgets.prodlist.selecteditem.imgUrl",
 				"type": "java.lang.String"
 			},
 			{
 				"isList": false,
 				"target": "id",
-				"value": "bind:Widgets.livelist1.selecteditem.id",
+				"value": "bind:Widgets.prodlist.selecteditem.id",
 				"type": "java.lang.Integer"
 			},
 			{
 				"isList": false,
 				"target": "category",
-				"value": "bind:Widgets.livelist1.selecteditem.category",
+				"value": "bind:Widgets.prodlist.selecteditem.category",
 				"type": "java.lang.String"
 			},
 			{
 				"isList": false,
 				"target": "price",
-				"value": "bind:Widgets.livelist1.selecteditem.price",
+				"value": "bind:Widgets.prodlist.selecteditem.price",
 				"type": "java.lang.Double"
 			},
 			{
 				"isList": false,
 				"target": "description",
-				"value": "bind:Widgets.livelist1.selecteditem.description",
+				"value": "bind:Widgets.prodlist.selecteditem.description",
 				"type": "java.lang.String"
 			},
 			{
 				"isList": false,
 				"target": "name",
-				"value": "bind:Widgets.livelist1.selecteditem.name",
+				"value": "bind:Widgets.prodlist.selecteditem.name",
 				"type": "java.lang.String"
 			},
 			{
 				"isList": false,
 				"target": "availability",
-				"value": "bind:Widgets.livelist1.selecteditem.availability",
+				"value": "bind:Widgets.prodlist.selecteditem.availability",
 				"type": "java.lang.Boolean"
 			}
 		],
 		"saveInPhonegap": false,
 		"category": "wm.Variable",
-		"_id": "wm-Static_Product_data-wm.Variable-1450076864751"
+		"_id": "wm-Static_Product_data-wm.Variable-1450076864751",
+		"$$hashKey": "object:1728"
 	},
 	"logoutVariable": {
 		"name": "logoutVariable",
@@ -251,7 +253,8 @@
 		"redirectTo": "index.html",
 		"useDefaultSuccessHandler": true,
 		"category": "wm.LogoutVariable",
-		"_id": "wm-logoutVariable-wm.LogoutVariable-1448969207396"
+		"_id": "wm-logoutVariable-wm.LogoutVariable-1448969207396",
+		"$$hashKey": "object:1723"
 	},
 	"EshoppingExecuteCancelled": {
 		"name": "EshoppingExecuteCancelled",
@@ -308,7 +311,8 @@
 		"serviceType": "DataService",
 		"category": "wm.ServiceVariable",
 		"_id": "wm-EshoppingExecuteCancelled-wm.ServiceVariable-1450089884879",
-		"isDefault": true
+		"isDefault": true,
+		"$$hashKey": "object:1712"
 	},
 	"goToPage_Product_search": {
 		"name": "goToPage_Product_search",
@@ -331,7 +335,8 @@
 		"dataBinding": [],
 		"saveInPhonegap": false,
 		"category": "wm.Variable",
-		"_id": "wm-hashredirect-wm.Variable-1450268290392"
+		"_id": "wm-hashredirect-wm.Variable-1450268290392",
+		"$$hashKey": "object:1719"
 	},
 	"goToPage_Orders": {
 		"name": "goToPage_Orders",
@@ -595,7 +600,8 @@
 			"productorder"
 		],
 		"category": "wm.LiveVariable",
-		"tableType": "TABLE"
+		"tableType": "TABLE",
+		"$$hashKey": "object:1715"
 	},
 	"goToPage_Cart": {
 		"name": "goToPage_Cart",
@@ -737,7 +743,8 @@
 		"dbSystem": "HSQLDB",
 		"category": "wm.LiveVariable",
 		"filterFields": {},
-		"tableType": "TABLE"
+		"tableType": "TABLE",
+		"$$hashKey": "object:1716"
 	},
 	"goToPage_Main": {
 		"name": "goToPage_Main",
@@ -882,7 +889,8 @@
 		"_id": "wm-Product_obj-wm.LiveVariable-1450091071612",
 		"filterFields": {},
 		"tableName": "PRODUCT",
-		"tableType": "TABLE"
+		"tableType": "TABLE",
+		"$$hashKey": "object:1724"
 	},
 	"Static_Product_data_cam": {
 		"name": "Static_Product_data_cam",
@@ -987,7 +995,8 @@
 		],
 		"saveInPhonegap": false,
 		"category": "wm.Variable",
-		"_id": "wm-Static_Product_data_cam-wm.Variable-1450083692212"
+		"_id": "wm-Static_Product_data_cam-wm.Variable-1450083692212",
+		"$$hashKey": "object:1729"
 	},
 	"goToPage_Product_laptops": {
 		"name": "goToPage_Product_laptops",
@@ -1008,16 +1017,6 @@
 		"pageTransitions": "none",
 		"category": "wm.NavigationVariable",
 		"_id": "wm-goToPage_Admin-wm.NavigationVariable-1448961272171"
-	},
-	"goToPage_Categories_laptop": {
-		"name": "goToPage_Categories_laptop",
-		"owner": "App",
-		"operation": "gotoPage",
-		"pageName": "Categories_laptop",
-		"dataBinding": {},
-		"pageTransitions": "none",
-		"category": "wm.NavigationVariable",
-		"_id": "wm-goToPage_Categories_laptop-wm.NavigationVariable-1449139274242"
 	},
 	"Static_Product_data_Laptop": {
 		"name": "Static_Product_data_Laptop",
@@ -1122,7 +1121,8 @@
 		],
 		"saveInPhonegap": false,
 		"category": "wm.Variable",
-		"_id": "wm-Static_Product_data_Laptop-wm.Variable-1450086660204"
+		"_id": "wm-Static_Product_data_Laptop-wm.Variable-1450086660204",
+		"$$hashKey": "object:1731"
 	},
 	"EshoppingProductorderData": {
 		"name": "EshoppingProductorderData",
@@ -1375,7 +1375,8 @@
 			"user"
 		],
 		"category": "wm.LiveVariable",
-		"tableType": "TABLE"
+		"tableType": "TABLE",
+		"$$hashKey": "object:1717"
 	},
 	"loginVariable": {
 		"name": "loginVariable",
@@ -1406,7 +1407,8 @@
 		"onError": "Javascript",
 		"useDefaultSuccessHandler": false,
 		"category": "wm.LoginVariable",
-		"_id": "wm-loginVariable-wm.LoginVariable-1448969207395"
+		"_id": "wm-loginVariable-wm.LoginVariable-1448969207395",
+		"$$hashKey": "object:1722"
 	},
 	"InsertCart": {
 		"name": "InsertCart",
@@ -1811,7 +1813,8 @@
 		"inputFields": {},
 		"category": "wm.LiveVariable",
 		"filterFields": {},
-		"tableType": "TABLE"
+		"tableType": "TABLE",
+		"$$hashKey": "object:1720"
 	},
 	"user_obj": {
 		"name": "user_obj",
@@ -2011,7 +2014,8 @@
 		"_id": "wm-user_obj-wm.LiveVariable-1450092190771",
 		"filterFields": {},
 		"tableName": "USER",
-		"tableType": "TABLE"
+		"tableType": "TABLE",
+		"$$hashKey": "object:1734"
 	},
 	"EshoppingExecute_Total_Price": {
 		"name": "EshoppingExecute_Total_Price",
@@ -2069,7 +2073,8 @@
 		"serviceType": "DataService",
 		"category": "wm.ServiceVariable",
 		"_id": "wm-EshoppingExecute_Total_Price-wm.ServiceVariable-1450089838621",
-		"isDefault": true
+		"isDefault": true,
+		"$$hashKey": "object:1711"
 	},
 	"EshoppingUserData": {
 		"name": "EshoppingUserData",
@@ -2265,7 +2270,8 @@
 		"tableName": "USER",
 		"dbSystem": "HSQLDB",
 		"category": "wm.LiveVariable",
-		"tableType": "TABLE"
+		"tableType": "TABLE",
+		"$$hashKey": "object:1718"
 	},
 	"goToPage_Profile": {
 		"name": "goToPage_Profile",
@@ -2331,17 +2337,8 @@
 		"serviceType": "DataService",
 		"category": "wm.ServiceVariable",
 		"_id": "wm-EshoppingExecute_Total_InCart-wm.ServiceVariable-1450172698588",
-		"isDefault": true
-	},
-	"goToPage_Products": {
-		"name": "goToPage_Products",
-		"owner": "App",
-		"operation": "gotoPage",
-		"pageName": "Products",
-		"dataBinding": {},
-		"pageTransitions": "none",
-		"category": "wm.NavigationVariable",
-		"_id": "wm-goToPage_Products-wm.NavigationVariable-1450077286063"
+		"isDefault": true,
+		"$$hashKey": "object:1710"
 	},
 	"EshoppingExecuteOrdered": {
 		"name": "EshoppingExecuteOrdered",
@@ -2399,7 +2396,8 @@
 		"category": "wm.ServiceVariable",
 		"_id": "wm-EshoppingExecuteOrdered-wm.ServiceVariable-1450089641366",
 		"isDefault": true,
-		"controller": "QueryExecution"
+		"controller": "QueryExecution",
+		"$$hashKey": "object:1713"
 	},
 	"loggedInUser": {
 		"name": "loggedInUser",
@@ -2417,17 +2415,8 @@
 		"dataBinding": [],
 		"saveInPhonegap": false,
 		"category": "wm.Variable",
-		"_id": "wm-loggedInUser-wm.Variable-1448969207397"
-	},
-	"goToPage_Categories": {
-		"name": "goToPage_Categories",
-		"owner": "App",
-		"operation": "gotoPage",
-		"pageName": "Categories",
-		"dataBinding": {},
-		"pageTransitions": "none",
-		"category": "wm.NavigationVariable",
-		"_id": "wm-goToPage_Categories-wm.NavigationVariable-1448960688452"
+		"_id": "wm-loggedInUser-wm.Variable-1448969207397",
+		"$$hashKey": "object:1721"
 	},
 	"EshoppingExecute_OrderedLists": {
 		"name": "EshoppingExecute_OrderedLists",
@@ -2486,7 +2475,8 @@
 			]
 		},
 		"_id": "wm-EshoppingExecute_OrderedLists-wm.ServiceVariable-1450702603666",
-		"controller": "QueryExecution"
+		"controller": "QueryExecution",
+		"$$hashKey": "object:1709"
 	},
 	"EshoppingItemorderData": {
 		"name": "EshoppingItemorderData",
@@ -2871,17 +2861,8 @@
 		],
 		"category": "wm.LiveVariable",
 		"filterFields": {},
-		"tableType": "TABLE"
-	},
-	"goToPage_Categories_accsries": {
-		"name": "goToPage_Categories_accsries",
-		"owner": "App",
-		"operation": "gotoPage",
-		"pageName": "Categories_accsries",
-		"dataBinding": {},
-		"pageTransitions": "none",
-		"category": "wm.NavigationVariable",
-		"_id": "wm-goToPage_Categories_accsries-wm.NavigationVariable-1449121157907"
+		"tableType": "TABLE",
+		"$$hashKey": "object:1714"
 	},
 	"supportedLocale": {
 		"name": "supportedLocale",
@@ -2894,26 +2875,547 @@
 		"dataBinding": [],
 		"saveInPhonegap": false,
 		"category": "wm.Variable",
-		"_id": "wm-supportedLocale-wm.Variable1402640443182"
+		"_id": "wm-supportedLocale-wm.Variable1402640443182",
+		"$$hashKey": "object:1733"
 	},
-	"goToPage_Categories_periphrls": {
-		"name": "goToPage_Categories_periphrls",
+	"goToPage_ProductsList": {
+		"name": "goToPage_ProductsList",
 		"owner": "App",
 		"operation": "gotoPage",
-		"pageName": "Categories_periphrls",
+		"pageName": "ProductsList",
 		"dataBinding": {},
 		"pageTransitions": "none",
 		"category": "wm.NavigationVariable",
-		"_id": "wm-goToPage_Categories_periphrls-wm.NavigationVariable-1449121237159"
+		"_id": "wm-goToPage_ProductsList-wm.NavigationVariable-1451477197015"
 	},
-	"goToPage_Categories_Cameras": {
-		"name": "goToPage_Categories_Cameras",
+	"goToPage_prodslistbycategory": {
+		"name": "goToPage_prodslistbycategory",
 		"owner": "App",
 		"operation": "gotoPage",
-		"pageName": "Categories_Cameras",
+		"pageName": "prodslistbycategory",
 		"dataBinding": {},
 		"pageTransitions": "none",
 		"category": "wm.NavigationVariable",
-		"_id": "wm-goToPage_Categories_Cameras-wm.NavigationVariable-1449147766571"
+		"_id": "wm-goToPage_prodslistbycategory-wm.NavigationVariable-1451477610045"
+	},
+	"SelectedCategory": {
+		"name": "SelectedCategory",
+		"type": "string",
+		"isList": false,
+		"owner": "App",
+		"dataSet": {
+			"dataValue": ""
+		},
+		"dataBinding": [
+			{
+				"target": "dataValue",
+				"type": "string",
+				"value": "bind:Widgets.prodcategorylist.selecteditem.dataValue"
+			}
+		],
+		"saveInPhonegap": false,
+		"category": "wm.Variable",
+		"_id": "wm-SelectedCategory-wm.Variable-1451477713501",
+		"$$hashKey": "object:1726"
+	},
+	"ProductsbyCategory": {
+		"name": "ProductsbyCategory",
+		"type": "Product",
+		"isList": false,
+		"owner": "App",
+		"dataSet": {
+			"dataValue": ""
+		},
+		"dataBinding": [
+			{
+				"target": "category",
+				"type": "string",
+				"value": "bind:Variables.SelectedCategory.dataSet.dataValue"
+			}
+		],
+		"saveInPhonegap": false,
+		"firstRow": 0,
+		"maxResults": 8,
+		"designMaxResults": 8,
+		"operation": "read",
+		"startUpdate": false,
+		"autoUpdate": true,
+		"inFlightBehavior": "executeLast",
+		"transformationRequired": false,
+		"liveSource": "eshopping",
+		"ignoreCase": false,
+		"matchMode": "start",
+		"filterFields": {},
+		"category": "wm.LiveVariable",
+		"_id": "wm-ProductsbyCategory-wm.LiveVariable-1451478038922",
+		"package": "com.eshop.eshopping.Product",
+		"tableName": "PRODUCT",
+		"tableType": "TABLE",
+		"propertiesMap": {
+			"columns": [
+				{
+					"fieldName": "id",
+					"type": "integer",
+					"hibernateType": "integer",
+					"fullyQualifiedType": "integer",
+					"columnName": "ID",
+					"isPrimaryKey": true,
+					"notNull": true,
+					"length": 255,
+					"generator": "identity",
+					"isRelated": false,
+					"defaultValue": null
+				},
+				{
+					"fieldName": "imgUrl",
+					"type": "string",
+					"hibernateType": "string",
+					"fullyQualifiedType": "string",
+					"columnName": "IMG_URL",
+					"isPrimaryKey": false,
+					"notNull": false,
+					"length": 255,
+					"generator": "assigned",
+					"isRelated": false,
+					"defaultValue": null
+				},
+				{
+					"fieldName": "category",
+					"type": "string",
+					"hibernateType": "string",
+					"fullyQualifiedType": "string",
+					"columnName": "CATEGORY",
+					"isPrimaryKey": false,
+					"notNull": true,
+					"length": 255,
+					"generator": "assigned",
+					"isRelated": false,
+					"defaultValue": null
+				},
+				{
+					"fieldName": "price",
+					"type": "double",
+					"hibernateType": "double",
+					"fullyQualifiedType": "double",
+					"columnName": "PRICE",
+					"isPrimaryKey": false,
+					"notNull": true,
+					"length": 255,
+					"generator": "assigned",
+					"isRelated": false,
+					"defaultValue": null
+				},
+				{
+					"fieldName": "description",
+					"type": "string",
+					"hibernateType": "string",
+					"fullyQualifiedType": "string",
+					"columnName": "DESCRIPTION",
+					"isPrimaryKey": false,
+					"notNull": true,
+					"length": 255,
+					"generator": "assigned",
+					"isRelated": false,
+					"defaultValue": null
+				},
+				{
+					"fieldName": "name",
+					"type": "string",
+					"hibernateType": "string",
+					"fullyQualifiedType": "string",
+					"columnName": "NAME",
+					"isPrimaryKey": false,
+					"notNull": true,
+					"length": 255,
+					"generator": "assigned",
+					"isRelated": false,
+					"defaultValue": null
+				},
+				{
+					"fieldName": "availability",
+					"type": "boolean",
+					"hibernateType": "boolean",
+					"fullyQualifiedType": "boolean",
+					"columnName": "AVAILABILITY",
+					"isPrimaryKey": false,
+					"notNull": true,
+					"length": 255,
+					"generator": "assigned",
+					"isRelated": false,
+					"defaultValue": null
+				}
+			],
+			"primaryFields": [
+				"id"
+			],
+			"entityName": "Product",
+			"fullyQualifiedName": "com.eshop.eshopping.Product",
+			"tableType": "TABLE"
+		},
+		"bindCount": null,
+		"$$hashKey": "object:1725"
+	},
+	"goToPage_Products": {
+		"name": "goToPage_Products",
+		"owner": "App",
+		"operation": "gotoPage",
+		"pageName": "Products",
+		"dataBinding": {},
+		"pageTransitions": "none",
+		"category": "wm.NavigationVariable",
+		"_id": "wm-goToPage_Products-wm.NavigationVariable-1451479034698"
+	},
+	"selectedproduct": {
+		"name": "selectedproduct",
+		"type": "Product",
+		"isList": false,
+		"owner": "App",
+		"dataSet": {
+			"data": [
+				{
+					"id": 1,
+					"imgUrl": "/Cameras/Camera21.jpg",
+					"category": "Cameras",
+					"price": 77,
+					"description": "Point and Shoot cameras are great for beginners and intermediates as it allows them to always have an automatically set camera ready on hand for when the perfect photo opportunity comes by.",
+					"name": "Nikon Coolpix L27 Point & Shoot",
+					"availability": true
+				},
+				{
+					"id": 2,
+					"imgUrl": "/Cameras/Camera20.jpg",
+					"category": "Cameras",
+					"price": 479,
+					"description": "3 inch TFT Color LCD Screen 18 Megapixel Camera Full HD Recording CMOS Image Sensor Focal Length: 18 - 55 mm. The Canon EOS 600D is an advanced entry level DSLR that is extremely user friendly.",
+					"name": "Canon EOS 600D SLR",
+					"availability": true
+				},
+				{
+					"id": 3,
+					"imgUrl": "/Cameras/Camera1.jpg",
+					"category": "Cameras",
+					"price": 143,
+					"description": "The PowerShot camera by Canon is a great compact camera that can fit into your bag or loose pocket so that it always remains available when you need to click a quick snap.",
+					"name": "Canon PowerShot SX160 IS Point & Shoot",
+					"availability": false
+				},
+				{
+					"id": 4,
+					"imgUrl": "/Cameras/Camera6.jpg",
+					"category": "Cameras",
+					"price": 113,
+					"description": "6x Optical Zoom 35 mm Equivalent Focal Length: 28 - 140 mm Super HAD CCD Image Sensor HD Recording (720p) 20.1 Megapixel Camera",
+					"name": "Sony CyberShot DSC-W810 Point & Shoot",
+					"availability": true
+				},
+				{
+					"id": 5,
+					"imgUrl": "/Cameras/Camera2.jpg",
+					"category": "Cameras",
+					"price": 220,
+					"description": "HD Recording  f/3.0 - f/5.9 Aperture Super HAD CCD Image Sensor 20.1 Megapixel Camera 35x Optical Zoom",
+					"name": "Sony Cyber-shot DSC-H300 Advance Point and shoot",
+					"availability": true
+				},
+				{
+					"id": 6,
+					"imgUrl": "/Cameras/Camera5.jpg",
+					"category": "Cameras",
+					"price": 109,
+					"description": "Super HAD CCD Image Sensor 35 mm Equivalent Focal Length: 28 - 140 mm 20.1 Megapixel Camera HD Recording (720p) 6x Optical Zoom",
+					"name": "Sony CyberShot DSC-W810 Point & Shoot",
+					"availability": true
+				},
+				{
+					"id": 7,
+					"imgUrl": "/Cameras/Camera7.jpg",
+					"category": "Cameras",
+					"price": 281,
+					"description": "The Sony Cyber Shot is a great compact camera that can be used for outdoor as well as indoor photography. It is a basic point and shoot camera with a host of creative features under the hood.",
+					"name": "SONY CYBERSHOT DSC-WX300 POINT & SHOOT",
+					"availability": true
+				},
+				{
+					"id": 8,
+					"imgUrl": "/Cameras/Camera4.jpg",
+					"category": "Cameras",
+					"price": 118,
+					"description": "The Sony Cyber Shot camera is the best choice for beginners who want to learn more about photography.",
+					"name": "Sony Cyber-shot DSC-W730 Point & Shoot",
+					"availability": false
+				},
+				{
+					"id": 9,
+					"imgUrl": "/Cameras/Camera14.jpg",
+					"category": "Cameras",
+					"price": 378,
+					"description": "Nikon D3100 is an entry-level DX-format camera, ideal for photographers preparing to refine their skills in DSLR cameras.",
+					"name": "Nikon D3100 SLR",
+					"availability": true
+				},
+				{
+					"id": 10,
+					"imgUrl": "/Cameras/Camera15.jpg",
+					"category": "Cameras",
+					"price": 1403,
+					"description": "CMOS Image Sensor 24.1 Megapixel Camera Full HD Recording",
+					"name": "Nikon D7100 SLR",
+					"availability": true
+				}
+			],
+			"propertiesMap": {
+				"columns": [
+					{
+						"fieldName": "id",
+						"type": "integer",
+						"hibernateType": "integer",
+						"fullyQualifiedType": "integer",
+						"columnName": "ID",
+						"isPrimaryKey": true,
+						"notNull": true,
+						"length": 255,
+						"generator": "identity",
+						"isRelated": false,
+						"defaultValue": null
+					},
+					{
+						"fieldName": "imgUrl",
+						"type": "string",
+						"hibernateType": "string",
+						"fullyQualifiedType": "string",
+						"columnName": "IMG_URL",
+						"isPrimaryKey": false,
+						"notNull": false,
+						"length": 255,
+						"generator": "assigned",
+						"isRelated": false,
+						"defaultValue": null
+					},
+					{
+						"fieldName": "category",
+						"type": "string",
+						"hibernateType": "string",
+						"fullyQualifiedType": "string",
+						"columnName": "CATEGORY",
+						"isPrimaryKey": false,
+						"notNull": true,
+						"length": 255,
+						"generator": "assigned",
+						"isRelated": false,
+						"defaultValue": null
+					},
+					{
+						"fieldName": "price",
+						"type": "double",
+						"hibernateType": "double",
+						"fullyQualifiedType": "double",
+						"columnName": "PRICE",
+						"isPrimaryKey": false,
+						"notNull": true,
+						"length": 255,
+						"generator": "assigned",
+						"isRelated": false,
+						"defaultValue": null
+					},
+					{
+						"fieldName": "description",
+						"type": "string",
+						"hibernateType": "string",
+						"fullyQualifiedType": "string",
+						"columnName": "DESCRIPTION",
+						"isPrimaryKey": false,
+						"notNull": true,
+						"length": 255,
+						"generator": "assigned",
+						"isRelated": false,
+						"defaultValue": null
+					},
+					{
+						"fieldName": "name",
+						"type": "string",
+						"hibernateType": "string",
+						"fullyQualifiedType": "string",
+						"columnName": "NAME",
+						"isPrimaryKey": false,
+						"notNull": true,
+						"length": 255,
+						"generator": "assigned",
+						"isRelated": false,
+						"defaultValue": null
+					},
+					{
+						"fieldName": "availability",
+						"type": "boolean",
+						"hibernateType": "boolean",
+						"fullyQualifiedType": "boolean",
+						"columnName": "AVAILABILITY",
+						"isPrimaryKey": false,
+						"notNull": true,
+						"length": 255,
+						"generator": "assigned",
+						"isRelated": false,
+						"defaultValue": null
+					}
+				],
+				"primaryFields": [
+					"id"
+				],
+				"entityName": "Product",
+				"fullyQualifiedName": "com.eshop.eshopping.Product",
+				"tableType": "TABLE"
+			},
+			"pagingOptions": {
+				"dataSize": 100,
+				"maxResults": 20
+			}
+		},
+		"dataBinding": [
+			{
+				"target": "id",
+				"type": "number",
+				"value": "bind:Variables.selectedprodID.dataSet.dataValue"
+			}
+		],
+		"saveInPhonegap": false,
+		"firstRow": 0,
+		"maxResults": 20,
+		"designMaxResults": 10,
+		"operation": "read",
+		"startUpdate": true,
+		"autoUpdate": true,
+		"inFlightBehavior": "executeLast",
+		"transformationRequired": false,
+		"liveSource": "eshopping",
+		"ignoreCase": false,
+		"matchMode": "exact",
+		"filterFields": {},
+		"category": "wm.LiveVariable",
+		"_id": "wm-selectedproduct-wm.LiveVariable-1451480068955",
+		"package": "com.eshop.eshopping.Product",
+		"tableName": "PRODUCT",
+		"tableType": "TABLE",
+		"propertiesMap": {
+			"columns": [
+				{
+					"fieldName": "id",
+					"type": "integer",
+					"hibernateType": "integer",
+					"fullyQualifiedType": "integer",
+					"columnName": "ID",
+					"isPrimaryKey": true,
+					"notNull": true,
+					"length": 255,
+					"generator": "identity",
+					"isRelated": false,
+					"defaultValue": null
+				},
+				{
+					"fieldName": "imgUrl",
+					"type": "string",
+					"hibernateType": "string",
+					"fullyQualifiedType": "string",
+					"columnName": "IMG_URL",
+					"isPrimaryKey": false,
+					"notNull": false,
+					"length": 255,
+					"generator": "assigned",
+					"isRelated": false,
+					"defaultValue": null
+				},
+				{
+					"fieldName": "category",
+					"type": "string",
+					"hibernateType": "string",
+					"fullyQualifiedType": "string",
+					"columnName": "CATEGORY",
+					"isPrimaryKey": false,
+					"notNull": true,
+					"length": 255,
+					"generator": "assigned",
+					"isRelated": false,
+					"defaultValue": null
+				},
+				{
+					"fieldName": "price",
+					"type": "double",
+					"hibernateType": "double",
+					"fullyQualifiedType": "double",
+					"columnName": "PRICE",
+					"isPrimaryKey": false,
+					"notNull": true,
+					"length": 255,
+					"generator": "assigned",
+					"isRelated": false,
+					"defaultValue": null
+				},
+				{
+					"fieldName": "description",
+					"type": "string",
+					"hibernateType": "string",
+					"fullyQualifiedType": "string",
+					"columnName": "DESCRIPTION",
+					"isPrimaryKey": false,
+					"notNull": true,
+					"length": 255,
+					"generator": "assigned",
+					"isRelated": false,
+					"defaultValue": null
+				},
+				{
+					"fieldName": "name",
+					"type": "string",
+					"hibernateType": "string",
+					"fullyQualifiedType": "string",
+					"columnName": "NAME",
+					"isPrimaryKey": false,
+					"notNull": true,
+					"length": 255,
+					"generator": "assigned",
+					"isRelated": false,
+					"defaultValue": null
+				},
+				{
+					"fieldName": "availability",
+					"type": "boolean",
+					"hibernateType": "boolean",
+					"fullyQualifiedType": "boolean",
+					"columnName": "AVAILABILITY",
+					"isPrimaryKey": false,
+					"notNull": true,
+					"length": 255,
+					"generator": "assigned",
+					"isRelated": false,
+					"defaultValue": null
+				}
+			],
+			"primaryFields": [
+				"id"
+			],
+			"entityName": "Product",
+			"fullyQualifiedName": "com.eshop.eshopping.Product",
+			"tableType": "TABLE"
+		},
+		"bindCount": 0,
+		"$$hashKey": "object:1727"
+	},
+	"selectedprodID": {
+		"name": "selectedprodID",
+		"type": "string",
+		"isList": false,
+		"owner": "App",
+		"dataSet": {
+			"dataValue": ""
+		},
+		"dataBinding": [
+			{
+				"target": "dataValue",
+				"type": "string",
+				"value": "bind:Widgets.container2_1.Widgets.prodlist.selecteditem.id"
+			}
+		],
+		"saveInPhonegap": false,
+		"category": "wm.Variable",
+		"_id": "wm-selectedprodID-wm.Variable-1451541391115",
+		"$$hashKey": "object:11609"
 	}
 }
