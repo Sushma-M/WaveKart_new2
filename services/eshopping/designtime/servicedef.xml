@@ -76,13 +76,6 @@
         <dataobject javaType="eshopping_Total_InCartrtnType">
             <element name="TOTAL" typeRef="java.math.BigInteger"/>
         </dataobject>
-        <dataobject javaType="eshopping_OrderedListsrtnType">
-            <element name="NAME" typeRef="java.lang.String"/>
-            <element name="PID" typeRef="java.lang.Integer"/>
-            <element name="ID" typeRef="java.lang.Integer"/>
-            <element name="STATUS" typeRef="java.lang.String"/>
-            <element name="QUANTITY" typeRef="java.lang.Integer"/>
-        </dataobject>
         <dataobject javaType="eshoppingproductbyIDrtnType">
             <element name="PRICE" typeRef="java.lang.Double"/>
             <element name="CATEGORY" typeRef="java.lang.String"/>
@@ -91,6 +84,14 @@
             <element name="IMG_URL" typeRef="java.lang.String"/>
             <element name="DESCRIPTION" typeRef="java.lang.String"/>
             <element name="ID" typeRef="java.lang.Integer"/>
+        </dataobject>
+        <dataobject javaType="eshopping_OrderedListsrtnType">
+            <element name="NAME" typeRef="java.lang.String"/>
+            <element name="PID" typeRef="java.lang.Integer"/>
+            <element name="ID" typeRef="java.lang.Integer"/>
+            <element name="STATUS" typeRef="java.lang.String"/>
+            <element name="QUANTITY" typeRef="java.lang.Integer"/>
+            <element name="PROD_IMG" typeRef="java.lang.String"/>
         </dataobject>
     </dataobjects>
 </service>

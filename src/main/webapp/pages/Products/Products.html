@@ -19,16 +19,16 @@
                         <wm-gridrow name="gridrow3">
                             <wm-gridcolumn columnwidth="2" name="gridcolumn5"></wm-gridcolumn>
                             <wm-gridcolumn columnwidth="6" name="gridcolumn6">
-                                <wm-label name="availabile" caption="Available" class="text-muted" paddingleft="1" paddingunit="em" show="bind:Variables.selectedproduct.dataSet.data[$i].availability" fontsize="16" backgroundcolor="#1c951c" color="#f0f7f0"
+                                <wm-label name="availabile" caption="Available" class="text-muted" paddingleft="1" paddingunit="em" show="bind:Variables.selectedproduct.dataSet.data[$i].availability" fontsize="16" backgroundcolor="#14b614" color="#f0f7f0"
                                 marginleft="2" marginright="2" paddingright="1" fontweight="bold"></wm-label>
-                                <wm-label name="outofStock" caption="Out Of Stock" paddingleft="1" paddingunit="em" paddingright="1" marginleft="2" marginright="2" fontsize="16" color="#f0f7f0" backgroundcolor="#da3116" show="bind:!Variables.selectedproduct.dataSet.data[$i].availability"
+                                <wm-label name="outofStock" caption="Out Of Stock" paddingleft="1" paddingunit="em" paddingright="1" marginleft="2" marginright="2" fontsize="16" color="#f0f7f0" backgroundcolor="#e45c47" show="bind:!Variables.selectedproduct.dataSet.data[$i].availability"
                                 fontweight="bold"></wm-label>
                             </wm-gridcolumn>
                         </wm-gridrow>
                         <wm-gridrow name="gridrow2">
                             <wm-gridcolumn columnwidth="2" name="gridcolumn3"></wm-gridcolumn>
                             <wm-gridcolumn columnwidth="6" name="gridcolumn4">
-                                <wm-button class="btn-default" caption="Add to Cart" type="button" name="addtoCart" iconclass="fa fa-cart-plus fa-lg" fontsize="14" backgroundcolor="#398adc" on-click="InsertCart"></wm-button>
+                                <wm-button class="btn-default" caption="Add to Cart" type="button" name="addtoCart" iconclass="fa fa-cart-plus fa-lg" fontsize="14" backgroundcolor="#77ade4" on-click="InsertCart"></wm-button>
                             </wm-gridcolumn>
                         </wm-gridrow>
                     </wm-layoutgrid>

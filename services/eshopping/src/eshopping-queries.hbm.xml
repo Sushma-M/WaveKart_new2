@@ -23,7 +23,7 @@
   </sql-query>
   <sql-query name="_OrderedLists">
     <![CDATA[
-      select  i.ID as id,p.ID as pid, p.NAME as name,i.QUANTITY as quantity,i.STATUS as status from ITEMORDER i,Product p where ( i.PRODUCT_ID=p.ID and i.status!='In Cart') and i.USER_ID=:LoggedinUserID
+      select  i.ID as id,p.ID as pid, p.NAME as name,i.QUANTITY as quantity,i.STATUS as status,p.IMG_URL as prod_img from ITEMORDER i,Product p where ( i.PRODUCT_ID=p.ID and i.status!='In Cart') and i.USER_ID=:LoggedinUserID
     ]]>
   </sql-query>
 </hibernate-mapping>
