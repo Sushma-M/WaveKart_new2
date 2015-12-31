@@ -33,32 +33,25 @@ var _ProductsPage_Variables_ ={}
     <wm-top-nav content="topnav" name="top_nav1"></wm-top-nav>
     <wm-content name="content1">
         <wm-page-content columnwidth="12" name="page_content1">
-            <wm-livelist listclass="list-group" itemsperrow="4" dataset="bind:Variables.selectedproduct.dataSet" name="livelist2">
-                <wm-listtemplate layout="thumbnail" name="listtemplate2">
-                    <wm-tile marginbottom="1" marginleft="1" marginunit="em" marginright="1" margintop="1" name="tile1">
-                        <wm-layoutgrid name="layoutgrid1">
-                            <wm-gridrow paddingunit="em" name="gridrow1">
-                                <wm-gridcolumn paddingunit="em" paddingbottom="1" paddingright="1" paddingleft="1" paddingtop="1" columnwidth="12" name="gridcolumn1">
-                                    <wm-picture picturesource="bind:&quot;http://wmstudio-apps.s3.amazonaws.com/eshop/Products/Thumbnails&quot;+Variables.selectedproduct.dataSet.data[$i].imgUrl" width="100%" name="Picture"></wm-picture>
-                                </wm-gridcolumn>
-                            </wm-gridrow>
-                            <wm-gridrow borderleft="0" borderbottom="0" borderright="0" bordertop="1" borderstyle="solid" bordercolor="#f8f8f8" name="gridrow2">
-                                <wm-gridcolumn paddingunit="em" paddingbottom="1" paddingright="1" paddingleft="1" paddingtop="1" name="gridcolumn4" columnwidth="12">
-                                    <wm-label class="h4" width="100%" name="Title" caption="bind:Variables.selectedproduct.dataSet.data[$i].name"></wm-label>
-                                    <wm-label class="text-muted" width="100%" name="Description" caption="Description"></wm-label>
-                                </wm-gridcolumn>
-                            </wm-gridrow>
-                            <wm-gridrow paddingunit="em" paddingleft="1" paddingbottom="1" paddingright="1" paddingtop="1" name="gridrow3">
-                                <wm-gridcolumn columnwidth="4" class="col-xs-4" name="gridcolumn3">
-                                    <wm-label name="Currency" caption="Currency"></wm-label>
-                                    <wm-label name="Money" caption="Money"></wm-label>
-                                </wm-gridcolumn>
-                                <wm-gridcolumn horizontalalign="right" columnwidth="8" class="col-xs-8" name="gridcolumn4">
-                                    <wm-button name="Cart" class="btn-default" caption="Add to Cart" type="button" iconclass="glyphicon glyphicon-shopping-cart fa-lg"></wm-button>
-                                </wm-gridcolumn>
-                            </wm-gridrow>
-                        </wm-layoutgrid>
-                    </wm-tile>
+            <wm-livelist listclass="list-group" itemclass="list-group-item" dataset="bind:Variables.selectedproduct.dataSet" name="livelist1">
+                <wm-listtemplate layout="gridlayout" name="listtemplate1">
+                    <wm-layoutgrid class="gridlayout" name="layoutgrid1">
+                        <wm-gridrow name="gridrow1">
+                            <wm-gridcolumn columnwidth="2" data-template-ctr="true" horizontalalign="center" class="col-xs-3" name="gridcolumn1">
+                                <wm-picture class="picture" shape="thumbnail" name="Picture" height="6em" picturesource="bind:&quot;http://wmstudio-apps.s3.amazonaws.com/eshop/Products/Thumbnails&quot;+Variables.selectedproduct.dataSet.imgUrl"></wm-picture>
+                            </wm-gridcolumn>
+                            <wm-gridcolumn columnwidth="6" data-template-ctr="true" class="col-xs-8" name="gridcolumn2">
+                                <wm-label name="Prodname" caption="bind:Variables.selectedproduct.dataSet.data[$i].name" class="media-heading h4 col-xs-12" fontsize="1.2" fontunit="em"></wm-label>
+                                <wm-label name="Description" caption="bind:Variables.selectedproduct.dataSet.data[$i].description" class="h5 col-xs-12" textalign="left" fontsize="1.1" fontunit="em"></wm-label>
+                                <wm-label name="Price" caption="bind:Variables.selectedproduct.dataSet.data[$i].price | toCurrency: '$'" class="text-muted" fontsize="1.5" fontunit="em"></wm-label>
+                                <wm-label name="nodata" caption="" paddingleft="5" paddingunit="em" paddingright="5"></wm-label>
+                                <wm-label name="availabile" caption="Available" class="text-muted" paddingleft="1" paddingunit="em" show="bind:Variables.selectedproduct.dataSet.data[$i].availability" fontsize="15" backgroundcolor="#1c951c"
+                                color="#f0f7f0" marginleft="2" marginright="2" paddingright="1"></wm-label>
+                                <wm-label name="outofStock" caption="Out Of Stock" paddingleft="1" paddingunit="em" paddingright="1" marginleft="2" marginright="2" fontsize="15" color="#f0f7f0" backgroundcolor="#da3116" show="bind:!Variables.selectedproduct.dataSet.data[$i].availability"></wm-label>
+                                <wm-button class="btn-default" caption="Add to Cart" type="button" name="addtoCart" iconclass="fa fa-cart-plus fa-lg" fontsize="14" backgroundcolor="#398adc" on-click="InsertCart"></wm-button>
+                            </wm-gridcolumn>
+                        </wm-gridrow>
+                    </wm-layoutgrid>
                 </wm-listtemplate>
             </wm-livelist>
         </wm-page-content>

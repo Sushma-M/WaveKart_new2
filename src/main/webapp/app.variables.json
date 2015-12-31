@@ -71,16 +71,6 @@
 		"isDefault": true,
 		"$$hashKey": "object:1496"
 	},
-	"goToPage_Product_search": {
-		"name": "goToPage_Product_search",
-		"owner": "App",
-		"operation": "gotoPage",
-		"pageName": "Product_search",
-		"dataBinding": {},
-		"pageTransitions": "none",
-		"category": "wm.NavigationVariable",
-		"_id": "wm-goToPage_Product_search-wm.NavigationVariable-1449751821176"
-	},
 	"hashredirect": {
 		"name": "hashredirect",
 		"type": "string",
@@ -648,16 +638,6 @@
 		"tableName": "PRODUCT",
 		"tableType": "TABLE",
 		"$$hashKey": "object:1508"
-	},
-	"goToPage_Product_laptops": {
-		"name": "goToPage_Product_laptops",
-		"owner": "App",
-		"operation": "gotoPage",
-		"pageName": "Product_laptops",
-		"dataBinding": {},
-		"pageTransitions": "none",
-		"category": "wm.NavigationVariable",
-		"_id": "wm-goToPage_Product_laptops-wm.NavigationVariable-1450083613603"
 	},
 	"goToPage_Admin": {
 		"name": "goToPage_Admin",
@@ -1828,16 +1808,6 @@
 		"category": "wm.NavigationVariable",
 		"_id": "wm-goToPage_Profile-wm.NavigationVariable-1448960453930"
 	},
-	"goToPage_Product_cameras": {
-		"name": "goToPage_Product_cameras",
-		"owner": "App",
-		"operation": "gotoPage",
-		"pageName": "Product_cameras",
-		"dataBinding": {},
-		"pageTransitions": "none",
-		"category": "wm.NavigationVariable",
-		"_id": "wm-goToPage_Product_cameras-wm.NavigationVariable-1450083631362"
-	},
 	"EshoppingExecute_Total_InCart": {
 		"name": "EshoppingExecute_Total_InCart",
 		"type": "eshopping_Total_InCartrtnType",
@@ -2955,12 +2925,148 @@
 			{
 				"target": "dataValue",
 				"type": "string",
-				"value": "bind:Widgets.container2_1.Widgets.prodlist.selecteditem.id||Widgets.livelist1.selecteditem.id||Widgets.livelist2.selecteditem.id||Widgets.livelist3.selecteditem.id"
+				"value": "bind:Widgets.container2_1.Widgets.prodlist.selecteditem.id||Widgets.livelist1.selecteditem.id||Widgets.livelist2.selecteditem.id||Widgets.livelist3.selecteditem.id||Variables.static_product_data_forsearch.dataSet.id"
 			}
 		],
 		"saveInPhonegap": false,
 		"category": "wm.Variable",
 		"_id": "wm-selectedprodID-wm.Variable-1451541391115",
 		"$$hashKey": "object:1511"
+	},
+	"static_product_data_forsearch": {
+		"name": "static_product_data_forsearch",
+		"type": "Product",
+		"isList": false,
+		"owner": "App",
+		"dataSet": {
+			"dataValue": ""
+		},
+		"dataBinding": [
+			{
+				"target": "id",
+				"type": "number",
+				"value": "bind:Widgets.productSearch.query"
+			}
+		],
+		"saveInPhonegap": false,
+		"firstRow": 0,
+		"maxResults": 20,
+		"designMaxResults": 10,
+		"operation": "read",
+		"startUpdate": true,
+		"autoUpdate": true,
+		"inFlightBehavior": "executeLast",
+		"transformationRequired": false,
+		"liveSource": "eshopping",
+		"ignoreCase": false,
+		"matchMode": "start",
+		"filterFields": {},
+		"category": "wm.LiveVariable",
+		"_id": "wm-static_product_data_forsearch-wm.LiveVariable-1451544569138",
+		"package": "com.eshop.eshopping.Product",
+		"tableName": "PRODUCT",
+		"tableType": "TABLE",
+		"propertiesMap": {
+			"columns": [
+				{
+					"fieldName": "id",
+					"type": "integer",
+					"hibernateType": "integer",
+					"fullyQualifiedType": "integer",
+					"columnName": "ID",
+					"isPrimaryKey": true,
+					"notNull": true,
+					"length": 255,
+					"generator": "identity",
+					"isRelated": false,
+					"defaultValue": null
+				},
+				{
+					"fieldName": "imgUrl",
+					"type": "string",
+					"hibernateType": "string",
+					"fullyQualifiedType": "string",
+					"columnName": "IMG_URL",
+					"isPrimaryKey": false,
+					"notNull": false,
+					"length": 255,
+					"generator": "assigned",
+					"isRelated": false,
+					"defaultValue": null
+				},
+				{
+					"fieldName": "category",
+					"type": "string",
+					"hibernateType": "string",
+					"fullyQualifiedType": "string",
+					"columnName": "CATEGORY",
+					"isPrimaryKey": false,
+					"notNull": true,
+					"length": 255,
+					"generator": "assigned",
+					"isRelated": false,
+					"defaultValue": null
+				},
+				{
+					"fieldName": "price",
+					"type": "double",
+					"hibernateType": "double",
+					"fullyQualifiedType": "double",
+					"columnName": "PRICE",
+					"isPrimaryKey": false,
+					"notNull": true,
+					"length": 255,
+					"generator": "assigned",
+					"isRelated": false,
+					"defaultValue": null
+				},
+				{
+					"fieldName": "description",
+					"type": "string",
+					"hibernateType": "string",
+					"fullyQualifiedType": "string",
+					"columnName": "DESCRIPTION",
+					"isPrimaryKey": false,
+					"notNull": true,
+					"length": 255,
+					"generator": "assigned",
+					"isRelated": false,
+					"defaultValue": null
+				},
+				{
+					"fieldName": "name",
+					"type": "string",
+					"hibernateType": "string",
+					"fullyQualifiedType": "string",
+					"columnName": "NAME",
+					"isPrimaryKey": false,
+					"notNull": true,
+					"length": 255,
+					"generator": "assigned",
+					"isRelated": false,
+					"defaultValue": null
+				},
+				{
+					"fieldName": "availability",
+					"type": "boolean",
+					"hibernateType": "boolean",
+					"fullyQualifiedType": "boolean",
+					"columnName": "AVAILABILITY",
+					"isPrimaryKey": false,
+					"notNull": true,
+					"length": 255,
+					"generator": "assigned",
+					"isRelated": false,
+					"defaultValue": null
+				}
+			],
+			"primaryFields": [
+				"id"
+			],
+			"entityName": "Product",
+			"fullyQualifiedName": "com.eshop.eshopping.Product",
+			"tableType": "TABLE"
+		},
+		"$$hashKey": "object:11523"
 	}
 }

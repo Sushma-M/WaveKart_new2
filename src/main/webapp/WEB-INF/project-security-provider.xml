@@ -24,9 +24,6 @@
         <security:intercept-url pattern="/pages/Login/**" access="permitAll"/>
         <security:intercept-url pattern="/pages/Main/**" access="permitAll"/>
         <security:intercept-url pattern="/pages/Orders/**" access="hasAnyRole('ROLE_user')"/>
-        <security:intercept-url pattern="/pages/Product_cameras/**" access="permitAll"/>
-        <security:intercept-url pattern="/pages/Product_laptops/**" access="permitAll"/>
-        <security:intercept-url pattern="/pages/Product_search/**" access="permitAll"/>
         <security:intercept-url pattern="/pages/Products/**" access="permitAll"/>
         <security:intercept-url pattern="/pages/ProductsList/**" access="permitAll"/>
         <security:intercept-url pattern="/pages/Profile/**" access="hasAnyRole('ROLE_user')"/>
