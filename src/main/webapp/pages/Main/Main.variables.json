@@ -133,7 +133,7 @@
 		"tableName": "PRODUCT",
 		"filterFields": {},
 		"tableType": "TABLE",
-		"$$hashKey": "object:15306"
+		"$$hashKey": "object:1487"
 	},
 	"laptops_list": {
 		"name": "laptops_list",
@@ -269,7 +269,7 @@
 		"tableName": "PRODUCT",
 		"filterFields": {},
 		"tableType": "TABLE",
-		"$$hashKey": "object:15307"
+		"$$hashKey": "object:1488"
 	},
 	"smartphones_list": {
 		"name": "smartphones_list",
@@ -406,6 +406,6 @@
 		"tableName": "PRODUCT",
 		"filterFields": {},
 		"tableType": "TABLE",
-		"$$hashKey": "object:15308"
+		"$$hashKey": "object:1489"
 	}
 }
